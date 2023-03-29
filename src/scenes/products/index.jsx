@@ -33,6 +33,9 @@ const Product = ({
         backgroundImage: "nonde",
         backgroundColor: theme.palette.background.alt,
         borderRadius: "0.55rem",
+        display: "flex",
+        flexDirection: "column",
+        justifyContent: "space-between",
       }}
     >
       <CardContent>

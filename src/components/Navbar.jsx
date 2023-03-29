@@ -37,7 +37,14 @@ const Navbar = ({ user, isSidebarOpen, setIsSidebarOpen }) => {
     setAnchorEL(null);
   };
   return (
-    <AppBar sx={{ position: "static", background: "none", boxShadow: "none" }}>
+    <AppBar
+      sx={{
+        position: "static",
+        background: "none",
+        boxShadow: "none",
+        pr: "0 !important",
+      }}
+    >
       <Toolbar sx={{ justifyContent: "space-between" }}>
         {/* LEFT SIDE */}
         <FlexBetween gap={"3rem"}>
