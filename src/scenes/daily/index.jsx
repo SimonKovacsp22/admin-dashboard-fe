@@ -1,7 +1,6 @@
 import React, { useState, useMemo } from "react";
 import { Box, useTheme } from "@mui/material";
 import Header from "components/Header";
-import OverviewChart from "components/OverviewChart";
 import { useGetSalesQuery } from "state/api";
 import "react-datepicker/dist/react-datepicker.css";
 import DatePicker from "react-datepicker";

@@ -104,6 +104,7 @@ const OverviewChart = ({ isDashboard = false, view }) => {
         },
         orient: "bottom",
         tickSize: 5,
+        tickValues: 5,
         tickPadding: 5,
         tickRotation: 0,
         legend: isDashboard ? "" : "Month",
